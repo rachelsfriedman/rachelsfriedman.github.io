@@ -1,0 +1,159 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.row {
+    margin-top: 25px;
+  }
+
+/*Navbar*/
+
+div #brand {
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#brand img {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+nav.navbar {
+  background-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+
+.logoimage {
+  margin-left: 30px;
+}
+
+a.navbar-brand {
+  width:175px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.logoname {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/*footer*/
+
+footer.social {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.social ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.social ul li {
+  display: inline;
+}
+
+footer img {
+  height: 35px;
+}
+
+/*Index Image Container*/
+
+.homepage-images  {
+  margin-top: 25px;
+}
+
+#tieredslideshow {
+  background: url(../images/homepage/homepageleft/mostwhite.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 3%;
+  height: 400px;
+}
+
+#sculptedslideshow {
+  background: url(../images/homepage/homepageright/poodle.jpg) center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 3%;
+  height: 400px;
+}
+
+/*About Page*/
+
+.about, .location, .artist {
+  font-family: europa;
+}
+
+/*Media Only Queries*/
+@media only screen and (min-width: 768px) {
+
+ul.nav {
+padding-top: 50px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+img {
+  margin-top: 50px;
+}
+ .row {
+  margin-top: 0;
+}
+
+div #brand {
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+#tieredslideshow {
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#sculptedslideshow {
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+a.navbar-brand {
+  display: none;
+}
+}
+
+/*Slick Carousel*/
+
+.carousel {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel img {
+  height: 400px;
+  margin-left: 10px;
+}
+
+img {
+  max-height: 100%;
+}
+
+
+
